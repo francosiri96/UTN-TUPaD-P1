@@ -1,0 +1,68 @@
+Actividades
+1) Contestar las siguientes preguntas utilizando las guías y documentación proporcionada
+(Desarrollar las respuestas) :
+• ¿Qué es GitHub? GitHub es  una especie de red social para programadores donde pueden compartir, colaborar y trabajar en proyectos de software.
+• ¿Cómo crear un repositorio en GitHub? desde tu usuario vas al +, y creas uno nuevo. 
+• ¿Cómo crear una rama en Git? git branch NombredelaRAMA 
+• ¿Cómo cambiar a una rama en Git? git checkout
+• ¿Cómo fusionar ramas en Git? git marge
+• ¿Cómo crear un commit en Git? git commit -m “nombre del mismo”
+• ¿Cómo enviar un commit a GitHub?git push origin nombre-de-la-rama
+• ¿Qué es un repositorio remoto? es una copia de tu proyecto pero almacenada en un servidor como podria ser github
+• ¿Cómo agregar un repositorio remoto a Git? git init
+git remote add origin “url”
+• ¿Cómo empujar cambios a un repositorio remoto? git push origin
+• ¿Cómo tirar de cambios de un repositorio remoto? git push -u origin main
+• ¿Qué es un fork de repositorio? es una copia de un repositorio que se crea en tu cuenta de GitHub para que puedas modificarlo sin afectar al repositorio original.
+• ¿Cómo crear un fork de un repositorio? en el repositorio debes tocar el boton fork 
+• ¿Cómo enviar una solicitud de extracción (pull request) a un repositorio? git push origin nueva-rama
+• ¿Cómo aceptar una solicitud de extracción?Revisa el PR.
+
+
+Haz clic en "Merge pull request".
+
+
+Confirma el merge.
+
+
+(Opcional) Elimina la rama si ya no se necesita.
+
+• ¿Qué es un etiqueta en Git?es una referencia que apunta a un commit específico en el historial de un repositorio
+• ¿Cómo crear una etiqueta en Git?git tag nombre-etiqueta
+• ¿Cómo enviar una etiqueta a GitHub? git push --tags
+• ¿Qué es un historial de Git? es el registro completo de todos los cambios realizados en un repositorio, desde que se inicializó hasta el momento actual. Este historial incluye todos los commits, las ramas, las fusiones y las etiquetas que se han realizado en el proyecto.
+• ¿Cómo ver el historial de Git? git log
+• ¿Cómo buscar en el historial de Git? git log --
+• ¿Cómo borrar el historial de Git? git reset
+• ¿Qué es un repositorio privado en GitHub? Un repositorio privado en GitHub es un repositorio al que solo tienen acceso las personas que tú invites específicamente.
+• ¿Cómo crear un repositorio privado en GitHub? es como crear un repositorio normal pero en Bajo la sección "Visibility" (Visibilidad), selecciona "Private".
+• ¿Cómo invitar a alguien a un repositorio privado en GitHub? Accede al repositorio privado.
+
+Haz clic en la pestaña "Settings" (Configuración).
+
+En el menú lateral, selecciona "Manage access" (Administrar acceso).
+
+Haz clic en "Invite a collaborator" (Invitar a un colaborador).
+
+Escribe el nombre de usuario de la persona que deseas invitar y selecciona el rol adecuado (por ejemplo, Read, Write, o Admin).
+
+Haz clic en "Add" para enviar la invitación.
+
+La persona recibirá una notificación para aceptar la invitación.
+• ¿Qué es un repositorio público en GitHub?  en GitHub es un repositorio que cualquiera puede ver, clonar, bifurcar y contribuir. Los repositorios públicos son ideales para proyectos de código abierto o cuando quieres compartir tu trabajo con la comunidad.
+• ¿Cómo crear un repositorio público en GitHub? Inicia sesión en tu cuenta de GitHub.
+
+Ve a la página principal de GitHub y haz clic en el botón "New" (Nuevo) o en el icono de "+" en la esquina superior derecha.
+
+Completa el formulario de creación de repositorio:
+
+Asigna un nombre y una descripción.
+
+Bajo la sección "Visibility" (Visibilidad), selecciona "Public".
+
+Haz clic en "Create repository" (Crear repositorio).
+• ¿Cómo compartir un repositorio público en GitHub? Una vez que tengas tu repositorio público, puedes compartir la URL directamente con cualquier persona.
+
+La URL de tu repositorio será algo como: https://github.com/tu-usuario/nombre-del-repositorio.
+
+También puedes usar el botón "Share" (Compartir) dentro de GitHub, que te permitirá copiar el enlace o compartirlo en redes sociales.
